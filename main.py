@@ -3,8 +3,8 @@ import time
 print("Текущее время:", time.ctime())
 
 print("--- ДОБРО ПОЖАЛОВАТЬ В ТРЕНАЖЕР ZOHRIDEV ---")
-print("Твой Acer Aspire 3 готов. У тебя 5 секунд на раздумья!")
-time.sleep(2) # Пауза для драматизма
+print(" У тебя 3 секунды для раздумья!")
+time.sleep(3) # Пауза для драматизма
 
 ans = input("AMD или NVIDIA?")
 
