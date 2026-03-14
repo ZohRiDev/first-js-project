@@ -38,3 +38,23 @@ print("Я поднимаюсь над землёй,", name4)
 print(name5,"между нами ра-a-ай!")
 
 print("гений")
+
+result = 5 + 10 # сложение
+result2 = 10 - 9 # вычитание
+result3 = 10 * 5 # умножение
+result4 = 7 / 4 # деление вернёт float
+print(result4, type(result4))
+result5 = 7 // 4 # деление вернёт int
+print(result5, type(result5))
+result6 = 7 % 4 # деление вернёт int
+print(result6, type(result6))
+
+result7 = 4**3
+print(result7, type(result7))
+
+num1 = -134
+abs_num = abs(num1) # abs это модуль, убирает минус
+print(abs_num)
+
+num1 = "hello" 
+print(num1)
