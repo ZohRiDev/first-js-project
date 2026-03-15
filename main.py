@@ -79,10 +79,24 @@ num4 = int(input('Введите число: '))
 # Равно обозначается ==
 # Но есть знак НЕ равно !=
 # and - И (*)   or - ИЛИ (+)
-usl1 = num4 > 10 and num4 % 2 == 0 # True and True -> 1 * 1 = 1 = True
-usl2 = num4 < 10 and num4 % 2 == 0 # True and False -> 1 * 0 = 0 = False
-print(usl1)
-print(usl2)
+#usl1 = num4 > 10 and num4 % 2 == 0 # True and True -> 1 * 1 = 1 = True
+#usl2 = num4 < 10 and num4 % 2 == 0 # True and False -> 1 * 0 = 0 = False
+#print(usl1)
+#print(usl2)
 
-usl3 = num4 % 3 == 0 or num4 > 100 # True and False -> 
-print(usl3)
+# Введу 60
+#usl3 = num4 % 3 == 0 or num4 > 100 # True and False -> 1 + 0 = 1 = True
+
+if num4 > 10 and num4 % 2 == 0:
+    print('Условие больше 10 и чётное')
+elif num4 % 2 != 0:
+    print('Число нечётное')
+elif num4 == 7:
+    print('Вы ввели 6')
+else:
+    print('Poka') 
+
+print('КОНЕЦ') 
+
+uk1 = True
+print(not(uk1))
