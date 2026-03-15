@@ -65,6 +65,24 @@ num3 = float(num2)
 print(num2,type(num2)) 
 print(num3,type(num3)) 
 
-num4 = int(input('Введите число первое: '))
-num5 = int(input('Введите число второе: '))
-print("Ответ:", num4 + num5)
+num4 = int(input('Введите число: '))
+#num5 = int(input('Введите число второе: '))
+#print("Ответ:", num4 + num5)
+
+# bool - True(1) and False(0)
+
+# Есть знаки которые определяют True и False при сравнении чисел:  
+# >=  
+# <=
+# >
+# <
+# Равно обозначается ==
+# Но есть знак НЕ равно !=
+# and - И (*)   or - ИЛИ (+)
+usl1 = num4 > 10 and num4 % 2 == 0 # True and True -> 1 * 1 = 1 = True
+usl2 = num4 < 10 and num4 % 2 == 0 # True and False -> 1 * 0 = 0 = False
+print(usl1)
+print(usl2)
+
+usl3 = num4 % 3 == 0 or num4 > 100 # True and False -> 
+print(usl3)
