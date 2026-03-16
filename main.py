@@ -99,4 +99,4 @@ else:
 print('КОНЕЦ') 
 
 uk1 = True
-print(not(uk1))
+print(not(uk1)) # not меняет знак, обозначет НЕ
