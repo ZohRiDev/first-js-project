@@ -37,9 +37,7 @@ print("Текущее время:", time.ctime())
 print("---ДОБРО ПОЖАЛОВАТЬ НА ТЕСТ CВОЕГО ФАВОРИТА В ВИДЕОКАРТАХ---")
 print("У тебя 4 секунды на раздумья!")
 #time.sleep(4) # Пауза для драматизма
-
 #ans = input("AMD или NVIDIA?")
-
 #if ans.upper() == "AMD":
     #print("Красавчик, любить много fps это твоё, выгодный вариант, но без трассировки лучей")
 #if ans.upper() == "NVIDIA":
@@ -141,13 +139,13 @@ from itertools import permutations
 
 cnt = 0
 
-for i in permutations("СОТКА", 5):   
+for i in permutations("СОТКА",5):   
         s = ''.join(i) 
         if s[0] != "С" and "КА" not in s:
             cnt += 1
 print(cnt)
 
-s = 1024 ** 789 + 256 ** 678 - 64 ** 567
+s = 1024**789 + 256**678 - 64**567
 
 cnt = 0
 
