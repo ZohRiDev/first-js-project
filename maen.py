@@ -179,3 +179,5 @@ for n in range(1, 100):
 
     if r < 99:
         print(n)
+
+        print(f"N = {n}, R = {r}") # выходной
