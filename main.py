@@ -16,4 +16,4 @@ for n in range(1, 100):
     r = int(s, 2) 
     
     if r < 99:
-       print(n)
+       print(n) # Сегодня выходной
